@@ -1,0 +1,39 @@
+
+.app-page {
+    display: flex;
+    justify-content: center;
+    padding-top:10%;
+    height:100%;
+    .app-form{
+        width:400px;
+        .form-row{
+            margin-bottom:20px;
+        }
+        ul{
+            width:100%;
+            padding-left:0px;
+            li{
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+                padding:10px;
+                border-bottom: 1px solid #ccc;
+                .icon{
+                    margin-right:20px;
+                    padding-top:3px;
+                    cursor: pointer;
+                }
+                .clear{
+                    text-decoration:line-through
+                }
+            }
+        }
+        .clear-box{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    }
+}
+
+
+
